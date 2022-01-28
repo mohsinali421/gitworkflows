@@ -2,6 +2,7 @@ name: learn-github-actions
 on:
   schedule:
     - cron: '* * * * *'
+  workflow_dispatch:
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
