@@ -16,7 +16,6 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
 
-      - name: print console message
-      - run: node ../../test.js
+     
 
       
